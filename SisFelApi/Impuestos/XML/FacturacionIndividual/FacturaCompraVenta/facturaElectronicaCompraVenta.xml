@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<facturaElectronicaCompraVenta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="facturaElectronicaCompraVenta.xsd">
+  <cabecera>
+    <nitEmisor>1024061022</nitEmisor>
+    <razonSocialEmisor>COOPERATIVA DE SERVICIOS PUBLICOS DE TELECOMUNICACIONES DE TARIJA R.L. COSETT R. L.</razonSocialEmisor>
+    <municipio>Tarija</municipio>
+    <telefono>46643010</telefono>
+    <numeroFactura>1</numeroFactura>
+    <cuf>4611B070E0069D65B63AE3F881B3B37DF3BC9E06B22AF6BAFEA64FD74</cuf>
+    <cufd>BQVVDMG9DQkE=NzjdGNUQ2MUE1N0U=QkEqYmNDVENYVUJIzNzU1RjZCNEFFM</cufd>
+    <codigoSucursal>0</codigoSucursal>
+    <direccion>Calle Suipacha N 484 Barrio Las Panosas</direccion>
+    <codigoPuntoVenta>1</codigoPuntoVenta>
+    <fechaEmision>2023-02-18T10:48:23.273</fechaEmision>
+    <nombreRazonSocial>Juan Perez Rios</nombreRazonSocial>
+    <codigoTipoDocumentoIdentidad>1</codigoTipoDocumentoIdentidad>
+    <numeroDocumento>7120750</numeroDocumento>
+    <complemento xsi:nil="true" />
+    <codigoCliente>46660606</codigoCliente>
+    <codigoMetodoPago>1</codigoMetodoPago>
+    <numeroTarjeta xsi:nil="true" />
+    <montoTotal>1420</montoTotal>
+    <montoTotalSujetoIva>1420</montoTotalSujetoIva>
+    <codigoMoneda>1</codigoMoneda>
+    <tipoCambio>1</tipoCambio>
+    <montoTotalMoneda>1420</montoTotalMoneda>
+    <montoGiftCard xsi:nil="true" />
+    <descuentoAdicional>0</descuentoAdicional>
+    <codigoExcepcion xsi:nil="true" />
+    <cafc xsi:nil="true" />
+    <leyenda>Ley N° 453: Tienes derecho a recibir información sobre las características y contenidos de los servicios que utilices.</leyenda>
+    <usuario>userAdm17</usuario>
+    <codigoDocumentoSector>1</codigoDocumentoSector>
+  </cabecera>
+  <detalle>
+    <actividadEconomica>610000</actividadEconomica>
+    <codigoProductoSin>84140</codigoProductoSin>
+    <codigoProducto>PQRP</codigoProducto>
+    <descripcion>Paquete Institucional</descripcion>
+    <cantidad>2.0</cantidad>
+    <unidadMedida>42</unidadMedida>
+    <precioUnitario>460</precioUnitario>
+    <montoDescuento>0</montoDescuento>
+    <subTotal>920</subTotal>
+    <numeroSerie xsi:nil="true" />
+    <numeroImei xsi:nil="true" />
+  </detalle>
+  <detalle>
+    <actividadEconomica>610000</actividadEconomica>
+    <codigoProductoSin>84110</codigoProductoSin>
+    <codigoProducto>1</codigoProducto>
+    <descripcion>Paquete 1</descripcion>
+    <cantidad>1.0</cantidad>
+    <unidadMedida>43</unidadMedida>
+    <precioUnitario>500</precioUnitario>
+    <montoDescuento>0</montoDescuento>
+    <subTotal>500</subTotal>
+    <numeroSerie xsi:nil="true" />
+    <numeroImei xsi:nil="true" />
+  </detalle>
+</facturaElectronicaCompraVenta>

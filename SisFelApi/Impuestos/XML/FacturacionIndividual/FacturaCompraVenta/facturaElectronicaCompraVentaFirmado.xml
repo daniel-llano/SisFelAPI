@@ -1,0 +1,119 @@
+<facturaElectronicaCompraVenta xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="facturaElectronicaCompraVenta.xsd">
+  <cabecera>
+    <nitEmisor>1024061022</nitEmisor>
+    <razonSocialEmisor>COOPERATIVA DE SERVICIOS PUBLICOS DE TELECOMUNICACIONES DE TARIJA R.L. COSETT R. L.</razonSocialEmisor>
+    <municipio>Tarija</municipio>
+    <telefono>46643010</telefono>
+    <numeroFactura>1</numeroFactura>
+    <cuf>4611B070E0069D65B63AE3F881B3B37DF3BC9E06B22AF6BAFEA64FD74</cuf>
+    <cufd>BQVVDMG9DQkE=NzjdGNUQ2MUE1N0U=QkEqYmNDVENYVUJIzNzU1RjZCNEFFM</cufd>
+    <codigoSucursal>0</codigoSucursal>
+    <direccion>Calle Suipacha N 484 Barrio Las Panosas</direccion>
+    <codigoPuntoVenta>1</codigoPuntoVenta>
+    <fechaEmision>2023-02-18T10:48:23.273</fechaEmision>
+    <nombreRazonSocial>Juan Perez Rios</nombreRazonSocial>
+    <codigoTipoDocumentoIdentidad>1</codigoTipoDocumentoIdentidad>
+    <numeroDocumento>7120750</numeroDocumento>
+    <complemento xsi:nil="true"></complemento>
+    <codigoCliente>46660606</codigoCliente>
+    <codigoMetodoPago>1</codigoMetodoPago>
+    <numeroTarjeta xsi:nil="true"></numeroTarjeta>
+    <montoTotal>1420</montoTotal>
+    <montoTotalSujetoIva>1420</montoTotalSujetoIva>
+    <codigoMoneda>1</codigoMoneda>
+    <tipoCambio>1</tipoCambio>
+    <montoTotalMoneda>1420</montoTotalMoneda>
+    <montoGiftCard xsi:nil="true"></montoGiftCard>
+    <descuentoAdicional>0</descuentoAdicional>
+    <codigoExcepcion xsi:nil="true"></codigoExcepcion>
+    <cafc xsi:nil="true"></cafc>
+    <leyenda>Ley N° 453: Tienes derecho a recibir información sobre las características y contenidos de los servicios que utilices.</leyenda>
+    <usuario>userAdm17</usuario>
+    <codigoDocumentoSector>1</codigoDocumentoSector>
+  </cabecera>
+  <detalle>
+    <actividadEconomica>610000</actividadEconomica>
+    <codigoProductoSin>84140</codigoProductoSin>
+    <codigoProducto>PQRP</codigoProducto>
+    <descripcion>Paquete Institucional</descripcion>
+    <cantidad>2.0</cantidad>
+    <unidadMedida>42</unidadMedida>
+    <precioUnitario>460</precioUnitario>
+    <montoDescuento>0</montoDescuento>
+    <subTotal>920</subTotal>
+    <numeroSerie xsi:nil="true"></numeroSerie>
+    <numeroImei xsi:nil="true"></numeroImei>
+  </detalle>
+  <detalle>
+    <actividadEconomica>610000</actividadEconomica>
+    <codigoProductoSin>84110</codigoProductoSin>
+    <codigoProducto>1</codigoProducto>
+    <descripcion>Paquete 1</descripcion>
+    <cantidad>1.0</cantidad>
+    <unidadMedida>43</unidadMedida>
+    <precioUnitario>500</precioUnitario>
+    <montoDescuento>0</montoDescuento>
+    <subTotal>500</subTotal>
+    <numeroSerie xsi:nil="true"></numeroSerie>
+    <numeroImei xsi:nil="true"></numeroImei>
+  </detalle>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>N4W2/NsEZO9uRTDcKmE5HbKOPvSOLsf3vbcsip+N+Pw=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+qJH2ZPhbMzwe6EqpJUVfFP2ReFgtvs15UA0zifr9YEQ1GHU8mdShm7CKCdGDBvI/NR4+r5SVPiIj
+Keee+HiyqSYGj/Wg84gs+LRSt4NuVVVFJ04bxCyIhiximoyqVhoWvGw3o/4cvLKZrTpQ3Qavzg+2
+3HKulEjLxKwVvTxE5E6uWU7zpG5ax2psCv1F3STGZHxkGUbC9ddFcqLD29a+/KglCueMNO4oDboY
+ETAdQqS8N+ou2KI/aPdws40KuU7a+ThqNsbCnTCzKufP9on8HW2fBY1QlgQCCZezJuiM5Vjr1Oz+
+L0DVp5yqJkOe8GLay7jqE22fiWGdsPPqzzqXwg==
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIIHQzCCBSugAwIBAgIId1yJPDOyJJIwDQYJKoZIhvcNAQELBQAwSzEsMCoGA1UEAwwjRW50aWRh
+ZCBDZXJ0aWZpY2Fkb3JhIFB1YmxpY2EgQURTSUIxDjAMBgNVBAoMBUFEU0lCMQswCQYDVQQGEwJC
+TzAeFw0yMjA5MjYyMDQyMTFaFw0yMzA5MjYyMDQyMTFaMIH3MQswCQYDVQQuEwJDSTEiMCAGA1UE
+AwwZSlVBTiBDQVJMT1MgR0FMRUFOIEhVQU5DQTETMBEGA1UEBRMKMTAyNDA2MTAyMjETMBEGA1UE
+DAwKUFJFU0lERU5URTE0MDIGA1UECwwrUmVzcG9uc2FiaWxpZGFkIExpbWl0YWRhLXRlbGVjb211
+bmljYWNpb25lczEVMBMGA1UECgwMQ09TRVRUIFIuIEwuMQswCQYDVQQGEwJCTzEUMBIGBysGAQEB
+AQAMBzU4MDc2NjAxKjAoBgNVBA0MIVBlcnNvbmEgSnVyaWRpY2EgRmlybWEgQXV0b21hdGljYTCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALyzCye9gM6fokulM982/N6LEvoSxc5/GdtI
+HN/I6kqvkFRYoqdAElFQeDPN6PRer0rzstrrxxVCHafmz/0vhVcSgl53ZXOm8PI9IknD8gjfMjBw
+SBvh0TZ6dVxqMCfxcOQbaGOzLkYi3Bq5HCBvqi55rVP10jtxL7Ux/+ktks+AaZJe6lgYdM65NEbL
+YcsSOQrov7xrlESj0xH8DGNMLse2SeSJ4jQvEg8Lv5dEPYdVzQEcIHUuUkLmDXUw+xANA1s2F4SM
+JDfGU31aHgPrQWYejV1DRVbkUbDO4S7GSMQoQBi8CxnfM0gXRlgfuLkcCRwlujwlO01VT8EGm/XS
+ICECAwEAAaOCAnwwggJ4MHkGCCsGAQUFBwEBBG0wazA7BggrBgEFBQcwAoYvaHR0cHM6Ly93d3cu
+ZmlybWFkaWdpdGFsLmJvL2Zpcm1hZGlnaXRhbF9iby5wZW0wLAYIKwYBBQUHMAGGIGh0dHA6Ly93
+d3cuZmlybWFkaWdpdGFsLmJvL29jc3AvMB0GA1UdDgQWBBRWtRsSGJ2/A0oRBmmgAynPbh1w7DAJ
+BgNVHRMEAjAAMB8GA1UdIwQYMBaAFNKZ3cFvJS4nqAvr3NnWkltiVaDCMIHEBgNVHSAEgbwwgbkw
+UAYOYEQAAAABDgECAAEAAAAwPjA8BggrBgEFBQcCARYwaHR0cHM6Ly93d3cuZmlybWFkaWdpdGFs
+LmJvL3BvbGl0aWNhanVyaWRpY2EucGRmMGUGD2BEAAAAAQ4BAgABAgEAATBSMFAGCCsGAQUFBwIC
+MEQeQgBQAGUAcgBzAG8AbgBhACAASgB1AHIAaQBkAGkAYwBhACAARgBpAHIAbQBhACAAQQB1AHQA
+bwBtAGEAdABpAGMAYTCBkwYDVR0fBIGLMIGIMIGFoDKgMIYuaHR0cDovL3d3dy5maXJtYWRpZ2l0
+YWwuYm8vZmlybWFkaWdpdGFsX2JvLmNybKJPpE0wSzEsMCoGA1UEAwwjRW50aWRhZCBDZXJ0aWZp
+Y2Fkb3JhIFB1YmxpY2EgQURTSUIxDjAMBgNVBAoMBUFEU0lCMQswCQYDVQQGEwJCTzALBgNVHQ8E
+BAMCBPAwJwYDVR0lBCAwHgYIKwYBBQUHAwIGCCsGAQUFBwMDBggrBgEFBQcDBDAdBgNVHREEFjAU
+gRJqZ2FsZWFuMUBnbWFpbC5jb20wDQYJKoZIhvcNAQELBQADggIBAIuwxlx+jwUrxgE0eDiHfcji
+oenOa1kDI610eul1Ov97LDzP99I6vyaPtcVwlwMv140UvCczM7iMciOGEfZqM5nFz9yqQKwtQcEC
+Gdqe5yPAymHN4mIIz6G0cMlv+SRm7prlIrCkkOpTS31DNkdM4CXrccs5vZshzTdP1Zxk9yQ+6Gal
+0tZNbHm6RVmEB/sJjfboh/jwNkUjnB2tyCigx2kSD3bORmlnBOQfXqv/jH3XQmK0K/nc7l2E+b48
++sAXkervd2IdNlrKmcVcuCyaW+dDqgXarduJwg4r9EGJa1gouhvQHZaGCYpLi+JslkwIGgGAMfD0
+VtrdCetTvhNBFpAXsNZ1N05pq5TH5tvqKtd7HUhMli0ywafIJVCzlyt/+uP3GkYRfL5Mmcqs7/C1
+Ka1nXoMm7KXFu5Ve8o9JUc5j3lWAAEndr/mMfK1IXGmQl23BPaHiHKFQHgO5iUMaLfrNd5JEXIMU
+J1msFyGSxAED5Il5nuc4Ay9umIydRh+HYrOUyyRkfEDB1fmk09X6RlCbR2fCpktvpMI4bIy1yJLY
+AWqrd1Bs0AEtm8vXVdLTQqyKzDIleRw+nrP26jrr4UmgYCz0KvzRAkaLr+7iSuf4KOXstCfbCX0J
+QWCvqN6oj0jnkNT+cDIXqWO2PfHrkN//A54QX6rvGV+gVwnSNL5T
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></facturaElectronicaCompraVenta>

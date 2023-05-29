@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<facturaElectronicaTelecomunicacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="facturaElectronicaTelecomunicacion.xsd">
+  <cabecera>
+    <nitEmisor>1024061022</nitEmisor>
+    <razonSocialEmisor>COOPERATIVA DE SERVICIOS PUBLICOS DE TELECOMUNICACIONES DE TARIJA R.L. COSETT R.</razonSocialEmisor>
+    <municipio>Tarija</municipio>
+    <telefono>2846005</telefono>
+    <nitConjunto xsi:nil="true" />
+    <numeroFactura>1</numeroFactura>
+    <cuf>4611B070E0069CA1FEA5D331C37D1D890298E686B0472B2147C54FD74</cuf>
+    <cufd>CQUFVQzBvQ0JBNzjdGNUQ2MUE1N0U=QnzCrGV6TlBDWFVIzNzU1RjZCNEFFM</cufd>
+    <codigoSucursal>0</codigoSucursal>
+    <direccion>AV.JORGE LOPEZ #123</direccion>
+    <codigoPuntoVenta>1</codigoPuntoVenta>
+    <fechaEmision>2023-02-14T13:52:08.513</fechaEmision>
+    <nombreRazonSocial>Mi razon social</nombreRazonSocial>
+    <codigoTipoDocumentoIdentidad>1</codigoTipoDocumentoIdentidad>
+    <numeroDocumento>5115889</numeroDocumento>
+    <complemento xsi:nil="true" />
+    <codigoCliente>51158891</codigoCliente>
+    <codigoMetodoPago>1</codigoMetodoPago>
+    <numeroTarjeta xsi:nil="true" />
+    <montoTotal>150</montoTotal>
+    <montoTotalSujetoIva>150</montoTotalSujetoIva>
+    <codigoMoneda>1</codigoMoneda>
+    <tipoCambio>1</tipoCambio>
+    <montoTotalMoneda>150</montoTotalMoneda>
+    <montoGiftCard xsi:nil="true" />
+    <descuentoAdicional xsi:nil="true" />
+    <codigoExcepcion xsi:nil="true" />
+    <cafc xsi:nil="true" />
+    <leyenda>Ley N° 453: Tienes derecho a recibir información sobre las características y contenidos de los servicios que utilices.</leyenda>
+    <usuario>Ricardo Mendez</usuario>
+    <codigoDocumentoSector>22</codigoDocumentoSector>
+  </cabecera>
+  <detalle>
+    <actividadEconomica>610000</actividadEconomica>
+    <codigoProductoSin>84120</codigoProductoSin>
+    <codigoProducto>POST - 131231</codigoProducto>
+    <descripcion>PAGO DE MES DE ABRIL DE POSTPAGO</descripcion>
+    <cantidad>1</cantidad>
+    <unidadMedida>58</unidadMedida>
+    <precioUnitario>150</precioUnitario>
+    <montoDescuento>0</montoDescuento>
+    <subTotal>150</subTotal>
+    <numeroSerie xsi:nil="true" />
+    <numeroImei xsi:nil="true" />
+  </detalle>
+</facturaElectronicaTelecomunicacion>

@@ -1,0 +1,107 @@
+<facturaElectronicaTelecomunicacion xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="facturaElectronicaTelecomunicacion.xsd">
+  <cabecera>
+    <nitEmisor>1024061022</nitEmisor>
+    <razonSocialEmisor>COOPERATIVA DE SERVICIOS PUBLICOS DE TELECOMUNICACIONES DE TARIJA R.L. COSETT R.</razonSocialEmisor>
+    <municipio>Tarija</municipio>
+    <telefono>2846005</telefono>
+    <nitConjunto xsi:nil="true"></nitConjunto>
+    <numeroFactura>1</numeroFactura>
+    <cuf>4611B070E0069A1F017230913E539ED4D2C1E686A63296CEEDB24FD74</cuf>
+    <cufd>BQVVDMG9DQkE=NzjdGNUQ2MUE1N0U=QjltaW1KQ0NYVUFIzNzU1RjZCNEFFM</cufd>
+    <codigoSucursal>0</codigoSucursal>
+    <direccion>AV.JORGE LOPEZ #123</direccion>
+    <codigoPuntoVenta>0</codigoPuntoVenta>
+    <fechaEmision>2023-02-01T09:38:40.842</fechaEmision>
+    <nombreRazonSocial>Mi razon social</nombreRazonSocial>
+    <codigoTipoDocumentoIdentidad>1</codigoTipoDocumentoIdentidad>
+    <numeroDocumento>5115889</numeroDocumento>
+    <complemento xsi:nil="true"></complemento>
+    <codigoCliente>51158891</codigoCliente>
+    <codigoMetodoPago>1</codigoMetodoPago>
+    <numeroTarjeta xsi:nil="true"></numeroTarjeta>
+    <montoTotal>150</montoTotal>
+    <montoTotalSujetoIva>150</montoTotalSujetoIva>
+    <codigoMoneda>1</codigoMoneda>
+    <tipoCambio>1</tipoCambio>
+    <montoTotalMoneda>150</montoTotalMoneda>
+    <montoGiftCard xsi:nil="true"></montoGiftCard>
+    <descuentoAdicional xsi:nil="true"></descuentoAdicional>
+    <codigoExcepcion xsi:nil="true"></codigoExcepcion>
+    <cafc xsi:nil="true"></cafc>
+    <leyenda>Ley N° 453: Tienes derecho a recibir información sobre las características y contenidos de los servicios que utilices.</leyenda>
+    <usuario>Ricardo Mendez</usuario>
+    <codigoDocumentoSector>22</codigoDocumentoSector>
+  </cabecera>
+  <detalle>
+    <actividadEconomica>610000</actividadEconomica>
+    <codigoProductoSin>84120</codigoProductoSin>
+    <codigoProducto>POST - 131231</codigoProducto>
+    <descripcion>PAGO DE MES DE ABRIL DE POSTPAGO</descripcion>
+    <cantidad>1</cantidad>
+    <unidadMedida>58</unidadMedida>
+    <precioUnitario>150</precioUnitario>
+    <montoDescuento xsi:nil="true"></montoDescuento>
+    <subTotal>150</subTotal>
+    <numeroSerie xsi:nil="true"></numeroSerie>
+    <numeroImei xsi:nil="true"></numeroImei>
+  </detalle>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FB/h2LOHvJjmRAwIewzfWXFbo1CQunfAtDV0rGtLYIc=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+uEhyH2L9+Ifis4Ipfd5F84UlEms2pYHsWCXdqTV6Pye5yBawqeT6hET16XN2diacOpFQBImMCuL9
+D+SWQ63ytYVo/TJN//gqtJqz+69t8H+OTTqmBb6K4pHfgyNaS8TanjMnwtljTuK8+OtTQ4Zedj7v
+KN1sGgB5inBG7JnXOBj/FtqI5oFuJqq8ZmF//a0jUT/sreY/nnCqq9noQflavynrP6SybZImwNW3
+1pm7a7wbH/0L5Prm3uHa1gGc5YlYSUBdyYBvKYOoZpQV9EUPVbhmbR0+2m9ok6s/a8JBOUwLBui5
+g0Ad1WfSKLIWaWKR8lke2ekuBMRZr4fE+6QUaA==
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIIHQzCCBSugAwIBAgIId1yJPDOyJJIwDQYJKoZIhvcNAQELBQAwSzEsMCoGA1UEAwwjRW50aWRh
+ZCBDZXJ0aWZpY2Fkb3JhIFB1YmxpY2EgQURTSUIxDjAMBgNVBAoMBUFEU0lCMQswCQYDVQQGEwJC
+TzAeFw0yMjA5MjYyMDQyMTFaFw0yMzA5MjYyMDQyMTFaMIH3MQswCQYDVQQuEwJDSTEiMCAGA1UE
+AwwZSlVBTiBDQVJMT1MgR0FMRUFOIEhVQU5DQTETMBEGA1UEBRMKMTAyNDA2MTAyMjETMBEGA1UE
+DAwKUFJFU0lERU5URTE0MDIGA1UECwwrUmVzcG9uc2FiaWxpZGFkIExpbWl0YWRhLXRlbGVjb211
+bmljYWNpb25lczEVMBMGA1UECgwMQ09TRVRUIFIuIEwuMQswCQYDVQQGEwJCTzEUMBIGBysGAQEB
+AQAMBzU4MDc2NjAxKjAoBgNVBA0MIVBlcnNvbmEgSnVyaWRpY2EgRmlybWEgQXV0b21hdGljYTCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALyzCye9gM6fokulM982/N6LEvoSxc5/GdtI
+HN/I6kqvkFRYoqdAElFQeDPN6PRer0rzstrrxxVCHafmz/0vhVcSgl53ZXOm8PI9IknD8gjfMjBw
+SBvh0TZ6dVxqMCfxcOQbaGOzLkYi3Bq5HCBvqi55rVP10jtxL7Ux/+ktks+AaZJe6lgYdM65NEbL
+YcsSOQrov7xrlESj0xH8DGNMLse2SeSJ4jQvEg8Lv5dEPYdVzQEcIHUuUkLmDXUw+xANA1s2F4SM
+JDfGU31aHgPrQWYejV1DRVbkUbDO4S7GSMQoQBi8CxnfM0gXRlgfuLkcCRwlujwlO01VT8EGm/XS
+ICECAwEAAaOCAnwwggJ4MHkGCCsGAQUFBwEBBG0wazA7BggrBgEFBQcwAoYvaHR0cHM6Ly93d3cu
+ZmlybWFkaWdpdGFsLmJvL2Zpcm1hZGlnaXRhbF9iby5wZW0wLAYIKwYBBQUHMAGGIGh0dHA6Ly93
+d3cuZmlybWFkaWdpdGFsLmJvL29jc3AvMB0GA1UdDgQWBBRWtRsSGJ2/A0oRBmmgAynPbh1w7DAJ
+BgNVHRMEAjAAMB8GA1UdIwQYMBaAFNKZ3cFvJS4nqAvr3NnWkltiVaDCMIHEBgNVHSAEgbwwgbkw
+UAYOYEQAAAABDgECAAEAAAAwPjA8BggrBgEFBQcCARYwaHR0cHM6Ly93d3cuZmlybWFkaWdpdGFs
+LmJvL3BvbGl0aWNhanVyaWRpY2EucGRmMGUGD2BEAAAAAQ4BAgABAgEAATBSMFAGCCsGAQUFBwIC
+MEQeQgBQAGUAcgBzAG8AbgBhACAASgB1AHIAaQBkAGkAYwBhACAARgBpAHIAbQBhACAAQQB1AHQA
+bwBtAGEAdABpAGMAYTCBkwYDVR0fBIGLMIGIMIGFoDKgMIYuaHR0cDovL3d3dy5maXJtYWRpZ2l0
+YWwuYm8vZmlybWFkaWdpdGFsX2JvLmNybKJPpE0wSzEsMCoGA1UEAwwjRW50aWRhZCBDZXJ0aWZp
+Y2Fkb3JhIFB1YmxpY2EgQURTSUIxDjAMBgNVBAoMBUFEU0lCMQswCQYDVQQGEwJCTzALBgNVHQ8E
+BAMCBPAwJwYDVR0lBCAwHgYIKwYBBQUHAwIGCCsGAQUFBwMDBggrBgEFBQcDBDAdBgNVHREEFjAU
+gRJqZ2FsZWFuMUBnbWFpbC5jb20wDQYJKoZIhvcNAQELBQADggIBAIuwxlx+jwUrxgE0eDiHfcji
+oenOa1kDI610eul1Ov97LDzP99I6vyaPtcVwlwMv140UvCczM7iMciOGEfZqM5nFz9yqQKwtQcEC
+Gdqe5yPAymHN4mIIz6G0cMlv+SRm7prlIrCkkOpTS31DNkdM4CXrccs5vZshzTdP1Zxk9yQ+6Gal
+0tZNbHm6RVmEB/sJjfboh/jwNkUjnB2tyCigx2kSD3bORmlnBOQfXqv/jH3XQmK0K/nc7l2E+b48
++sAXkervd2IdNlrKmcVcuCyaW+dDqgXarduJwg4r9EGJa1gouhvQHZaGCYpLi+JslkwIGgGAMfD0
+VtrdCetTvhNBFpAXsNZ1N05pq5TH5tvqKtd7HUhMli0ywafIJVCzlyt/+uP3GkYRfL5Mmcqs7/C1
+Ka1nXoMm7KXFu5Ve8o9JUc5j3lWAAEndr/mMfK1IXGmQl23BPaHiHKFQHgO5iUMaLfrNd5JEXIMU
+J1msFyGSxAED5Il5nuc4Ay9umIydRh+HYrOUyyRkfEDB1fmk09X6RlCbR2fCpktvpMI4bIy1yJLY
+AWqrd1Bs0AEtm8vXVdLTQqyKzDIleRw+nrP26jrr4UmgYCz0KvzRAkaLr+7iSuf4KOXstCfbCX0J
+QWCvqN6oj0jnkNT+cDIXqWO2PfHrkN//A54QX6rvGV+gVwnSNL5T
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></facturaElectronicaTelecomunicacion>
